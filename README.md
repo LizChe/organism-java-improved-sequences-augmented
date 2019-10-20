@@ -1,10 +1,10 @@
 # Organism Java Improved Sequences Augmented
 
-### Java. Enhanced.
+### Java. Enhanced. Evolution never over.
 
 ![Duke](src/main/resources/media/images/duke.png)
 
-This is the presentation about new additions in Java.
+This is the presentation about new additions in Java.  
 Versions included are: Java 9, Java 10 and Java 11 LTS.
 Java 12 and Java 13 are omitted.  
 Slides can be found in `resources/presentation` directory  
