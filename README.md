@@ -14,15 +14,15 @@ Duke appeared on slides out of his own will._
 
 ## __Table of Contents__  
 
-☕︎ __[Lost in Java Updates?]()__
+☕︎ __[Lost in Java Updates?](https://github.com/LizChe/organism-java-improved-sequences-augmented#lost-in-java-updates)__
 
-☕︎ __[Wha' do ye mean ain't fer free?]()__
+☕︎ __[Wha' do ye mean ain't fer free?](https://github.com/LizChe/organism-java-improved-sequences-augmented#wha-do-ye-mean-aint-fer-free)__
 
-☕︎ __[Collecting Garbage efficiently]()__
+☕︎ __[Collecting Garbage efficiently](https://github.com/LizChe/organism-java-improved-sequences-augmented#collecting-garbage-efficiently)__
 
-☕︎ __[`>>> python3` no more]()__
+☕︎ __[`>>> python3` no more](https://github.com/LizChe/organism-java-improved-sequences-augmented#-python-3-no-more)__
 
-☕︎ __[Snug as a bug in a mug]()__
+☕︎ __[Snug as a bug in a mug](https://github.com/LizChe/organism-java-improved-sequences-augmented#snug-as-a-bug-in-a-mug)__
 
 ## __Lost in Java Updates?__
 
