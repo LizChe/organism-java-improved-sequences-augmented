@@ -4,8 +4,8 @@
 
 ![Duke](src/main/resources/media/images/duke.png)
 
-This is the presentation about new additions in Java.  
-Versions included are: Java 9, Java 10 and Java 11 LTS.  
+This is the presentation about new additions in Java.
+Versions included are: Java 9, Java 10 and Java 11 LTS.
 Java 12 and Java 13 are omitted.  
 Slides can be found in `resources/presentation` directory  
 
@@ -65,7 +65,7 @@ Eden & Survivor Space | Tenured | Permanent
 > Newly created objects live in the young generation, when the young generation is full, all survived objects are eventually moved
 to the old generation.
 
->>So, what's so special about G1? The heap structure of Garbage First GC looks as follow:
+>So, what's so special about G1? The heap structure of Garbage First GC looks as follow:
 
 | O |   | O | E | E | O
 :---: | :---: | :---: | :---: | :---: | :---:
@@ -157,7 +157,7 @@ For a short JShell tutorial go here:
 ## __Snug as a bug in a mug__
 
 This chapter has aims to get you comfortable with Java 11 features.
-All the code will be provided in `com/codecool/organismjava` directory.
+All the code is provided in `com/codecool/organismjava` directory.
 
 __Approximate speech__:
 
