@@ -25,8 +25,8 @@ public class VarType {
     /**
      * It is possible not to define the type of a collection.
      * In this way we can have objects of various types.
-     * However, once we defined: var list = new ArrayList<String>().
-     * We can no longer put other types of objects in such a list.
+     * However, once we defined: var list = new ArrayList<String>()
+     * we can no longer put other types of objects in such a list.
      */
     private void showInterestingThingsWithVarList() {
         var listTweak = new ArrayList<>(); // Inferred as ArrayList<Object>
