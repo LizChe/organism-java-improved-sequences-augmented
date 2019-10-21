@@ -8,9 +8,7 @@ import java.util.Set;
 public class ImmutableCollectionFeatures {
 
     /**
-     * Before Java 9
-     *
-     * @return unmodifiable set, list, map, etc. using Collections.
+     * Before Java 9.
      */
     private Set<String> createImmutableSet() {
         Set<String> stringSet = new HashSet<>();
@@ -19,16 +17,19 @@ public class ImmutableCollectionFeatures {
     }
 
     /**
-     * Since Java 9
-     *
-     * @return unmodifiable set, list, map, etc. in one line.
+     * Since Java 9.
+     * In case you do not believe me that these collections are in fact immutable, you can test it!
      */
+    private void createImmutableCollectionsInEasyWay() {
+        Set<String> immutableSet = Set.of("Java 9 is awesome!");
+        List<String> immutableList = List.of("Unmodifiable List");
 
-    private Set<String> createImmutableSetInEasyWay() {
-        return Set.of("Java 9 is awesome!");
+        // Proof. You run it at your own risk.
+        // immutableSet.add("This will cause an exception");
+        // immutableList.add("This will cause an exception");
     }
 
-    private List<String> createImmutableList() {
-        return List.of("Unmodifiable List");
+    public static void main(String[] args) {
+        new ImmutableCollectionFeatures().createImmutableCollectionsInEasyWay();
     }
 }

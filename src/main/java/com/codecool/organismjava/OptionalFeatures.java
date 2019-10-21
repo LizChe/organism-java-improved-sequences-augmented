@@ -9,21 +9,20 @@ public class OptionalFeatures {
         schrodingerCat.ifPresentOrElse(cat -> System.out.println("I am alive"), () -> System.out.println("I am dead"));
 
         // This is how it would look like in Java 8:
-
-        // can use isEmpty() method since Java 9 instead of negation
-        if (!schrodingerCat.isPresent()) {
-            System.out.println("I am dead");
-        } else {
+        if (schrodingerCat.isPresent()) {
             System.out.println("I am alive");
+        } else {
+            System.out.println("I am dead");
         }
+
+        // Hint! Since Java 9 instead of negation '!isPresent()' you can use 'isEmpty()'!
+        // Not really helpful in this example, but please keep that in mind.
     }
 
     /**
-     * Before java 9 it was only possible to return an unwrapped value of an object
-     * using orElse or orElseGet
-     * with or it is possible to return an Optional
+     * Before Java 9 it was only possible to return an unwrapped value of an object
+     * using 'orElse()' or 'orElseGet()'. With 'or()' it is possible to return an Optional!
      */
-
     private void orMethod() {
         Optional<String> mario = Optional.of("Mario");
         Optional<String> luigi = Optional.of("Luigi");

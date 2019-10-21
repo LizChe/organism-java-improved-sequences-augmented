@@ -4,21 +4,20 @@ import java.util.stream.Stream;
 
 public class StreamFeatures {
 
-    private void takeWhileMethod() {
+    private static void takeWhileMethod() {
         Stream<String> strings = Stream.of("water", "watermelon", "coffee", "wild", "whale", "pumpkin");
         System.out.println("\nTake While method:");
-        strings.takeWhile(s -> s.startsWith("w")).forEach(s -> System.out.print(s + " "));
+        strings.takeWhile(s -> s.startsWith("w")).forEach(s -> System.out.print(s + " ")); // water watermelon
     }
 
-    private void dropWhileMethod() {
+    private static void dropWhileMethod() {
         Stream<String> strings = Stream.of("water", "watermelon", "coffee", "wild", "whale", "pumpkin");
         System.out.println("\nDrop While method:");
-        strings.dropWhile(s -> s.startsWith("w")).forEach(s -> System.out.print(s + " "));
+        strings.dropWhile(s -> s.startsWith("w")).forEach(s -> System.out.print(s + " ")); // coffee wild whale pumpkin
     }
 
     public static void main(String[] args) {
-        StreamFeatures streamFeatures = new StreamFeatures();
-        streamFeatures.takeWhileMethod();
-        streamFeatures.dropWhileMethod();
+        takeWhileMethod();
+        dropWhileMethod();
     }
 }
