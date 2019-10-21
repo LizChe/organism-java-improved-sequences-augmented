@@ -166,7 +166,7 @@ __Approximate speech__:
   - in order to try this feature out navigate to `organismjava` directory
   - type: `java CompileMe.java`
 
-- New features of String class can be found in `StringFeatures.java` class
+- New features of String class can be found in `strings` package
   - `public String strip()`
   - `public String stripLeading()`
   - `public String stripTrailing()`
@@ -180,7 +180,7 @@ __Approximate speech__:
 - Features of immutable collections can be found in `ImmutableCollectionFeatures.java` class
   - creating an immutable collection became easier
 
-- Try with Resources improvement can be found in `TryWithResourcesImprovements.java` class
+- Try with Resources improvement can be found in `trywithresources` package
   - with Java 9 it is possible to use resource reference in try with resources
 
 - New Optional methods can be found in `OptionalFeatures.java` class
