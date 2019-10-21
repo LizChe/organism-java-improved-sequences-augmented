@@ -35,7 +35,7 @@ public class TryWithResourcesImprovements {
             improvements.tryWithResourcesInJava9Style();
             improvements.vintageTryWithResources();
         } catch (FileNotFoundException e) {
-            System.out.println("Something unexpected happened.");
+            System.out.println("Couldn't find a file");
         }
     }
 }
