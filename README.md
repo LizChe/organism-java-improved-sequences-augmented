@@ -20,9 +20,9 @@ Duke appeared on slides out of his own will._
 
 ☕︎ __[Collecting Garbage efficiently](https://github.com/LizChe/organism-java-improved-sequences-augmented#collecting-garbage-efficiently)__
 
-☕︎ __[`>>> python3` no more](https://github.com/LizChe/organism-java-improved-sequences-augmented#-python-3-no-more)__
+☕︎ __[`public static void main(String[] args){}` no more](https://github.com/LizChe/organism-java-improved-sequences-augmented#-python-3-no-more)__
 
-☕︎ __[Snug as a bug in a mug](https://github.com/LizChe/organism-java-improved-sequences-augmented#snug-as-a-bug-in-a-mug)__
+☕︎ __[Snug as a bug in a ~~rug~~ mug](https://github.com/LizChe/organism-java-improved-sequences-augmented#snug-as-a-bug-in-a-mug)__
 
 ## __Lost in Java Updates?__
 
@@ -87,7 +87,7 @@ For more in-depth information, please, follow these links:
 * [Getting Started with the G1 Garbage Collector](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
 * [Understanding the G1 Garbage Collector – Java 9](https://www.dynatrace.com/news/blog/understanding-g1-garbage-collector-java-9)
 
-## __`>>> python 3` no more__
+## __`public static void main(String[] args){}` no more__
 
 This chapter is about JShell that was introduced with Java 9.
 
@@ -154,19 +154,20 @@ For a short JShell tutorial go here:
 * [Java Shell User’s Guide](https://docs.oracle.com/javase/9/jshell/toc.htm)
 * [A Hands-on Session with JShell](https://blog.overops.com/java-9-early-access-a-hands-on-session-with-jshell-the-java-repl)
 
-## __Snug as a bug in a mug__
+## __Snug as a bug in a ~~rug~~ mug__
+_P.S. This idiom means to be warm, cozy and comfortable_  
 
-This chapter has aims to get you comfortable with Java 11 features.
+This chapter has aims to get you comfortable with Java 9, 10, 11 features.
 All the code is provided in `com/codecool/organismjava` directory.
 
 __Approximate speech__:
 
-- Compile and run a single file in one line
+- Compile and run a single file in one line with Java 11.
   - there is no need in `javac` command anymore
   - in order to try this feature out navigate to `organismjava` directory
   - type: `java CompileMe.java`
 
-- New features of String class can be found in `strings` package
+- Java 11 brings out new features of String class, these features can be found in `strings` package
   - `public String strip()`
   - `public String stripLeading()`
   - `public String stripTrailing()`
@@ -178,25 +179,25 @@ __Approximate speech__:
   - private methods in interfaces are now possible with Java 9.
 
 - Features of immutable collections can be found in `ImmutableCollectionFeatures.java` class
-  - creating an immutable collection became easier
+  - creating an immutable collection became easier in Java 9.
 
 - Try with Resources improvement can be found in `trywithresources` package
   - with Java 9 it is possible to use resource reference in try with resources
 
-- New Optional methods can be found in `OptionalFeatures.java` class
+- New Optional features broke through with Java 9 and 11. Showcase methods can be found in `OptionalFeatures.java` class
   - `public void ifPresentOrElse​(Consumer<? super T> action, Runnable emptyAction)`
   - `public Optional<T> or​(Supplier<? extends Optional<? extends T>> supplier)`
   - `public Stream<T> stream​()`
   - `public boolean isEmpty()`
 
-- Stream API features can be found in `StreamFeatures.java` class
+- Stream API features of Java 9 can be found in `StreamFeatures.java` class
   - `default Stream<T> takeWhile​(Predicate<? super T> predicate)`
   - `default Stream<T> dropWhile​(Predicate<? super T> predicate)`
 
 - New Type `var` can be found in `VarType.java` class
   - Java 10 introduced a new type name available for our use
 
-- New Files methods can be found in `FilesFeatures.java` class
+- Here come Java 11 and new Files methods that can be found in `FilesFeatures.java` class
   - `public static Path writeString​(Path path, CharSequence csq, OpenOption... options) throws IOException`
   - `public static String readString​(Path path) throws IOException`
 
