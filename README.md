@@ -20,9 +20,9 @@ Duke appeared on slides out of his own will._
 
 ☕︎ __[Collecting Garbage efficiently](https://github.com/LizChe/organism-java-improved-sequences-augmented#collecting-garbage-efficiently)__
 
-☕︎ __[`public static void main(String[] args){}` no more](https://github.com/LizChe/organism-java-improved-sequences-augmented#-python-3-no-more)__
+☕︎ __[`public static void main(String[] args){}` no more](https://github.com/LizChe/organism-java-improved-sequences-augmented#public-static-void-mainstring-args-no-more)__
 
-☕︎ __[Snug as a bug in a ~~rug~~ mug](https://github.com/LizChe/organism-java-improved-sequences-augmented#snug-as-a-bug-in-a-mug)__
+☕︎ __[Snug as a bug in a ~~rug~~ mug](https://github.com/LizChe/organism-java-improved-sequences-augmented#snug-as-a-bug-in-a-rug-mug)__
 
 ## __Lost in Java Updates?__
 
@@ -155,7 +155,7 @@ For a short JShell tutorial go here:
 * [A Hands-on Session with JShell](https://blog.overops.com/java-9-early-access-a-hands-on-session-with-jshell-the-java-repl)
 
 ## __Snug as a bug in a ~~rug~~ mug__
-_P.S. This idiom means to be warm, cozy and comfortable_  
+_P.S. "Snug as a bug in a rug" idiom means to be warm, cozy and comfortable_  
 
 This chapter has aims to get you comfortable with Java 9, 10, 11 features.
 All the code is provided in `com/codecool/organismjava` directory.
